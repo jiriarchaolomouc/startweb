@@ -1,0 +1,36 @@
+body {
+    background-color: maroon;
+    color: white;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid 5px white;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav li a {
+    display: block;
+    padding: 7px;
+    margin: 7px;
+    background-color: white;
+    color: olive;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+ {}
