@@ -18,8 +18,25 @@ ul {
     
 }
 
+nav {
+    float: left;
+    padding-right: 10px;
+    margin-right: 30px;
+    border-right: 20px solid olive;
+    width: 30%;
+    box-sizing: border-box;   
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
 nav li {
-    display: inline-block;
+    /*display: inline-block;*/
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
     
 }
 
@@ -33,4 +50,11 @@ nav li a {
     border-radius: 7px;
 }
 
- {}
+nav li a:hover {
+    background-color: olive;
+    color: white;
+}
+
+main {
+    margin-left: calc(30% + 30px);
+}
